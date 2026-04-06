@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DistSysAcwClient",
+    "\\DistSysAcwServer",
+    "\\DistSysAcwServer\\Controllers",
+    "\\DistSysAcwServer\\Models",
+    "\\DistSysAcwServer\\Pipeline",
+    "\\DistSysAcwServer\\Pipeline\\Auth",
+    "\\DistSysAcwServer\\Pipeline\\ErrorHandling",
+    "\\DistSysAcwServer\\Shared"
+  ],
+  "SelectedNode": "\\DistSysAcw.sln",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,5 +1,6 @@
 using DistSysAcwServer.Middleware;
 using DistSysAcwServer.Pipeline;
+using DistSysAcwServer.Services;
 using DistSysAcwServer.Shared;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
@@ -20,6 +21,10 @@ builder.Services.AddControllers(options =>
 builder.Services.AddDbContext<DistSysAcwServer.Models.UserContext>();
 builder.Services.AddHttpContextAccessor();
 
+// Register the RSA key service as a singleton so the same key pair
+// is shared across all threads and requests for the lifetime of the server.
+builder.Services.AddSingleton<RsaKeyService>();
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultScheme = "CustomAuthentication";
@@ -27,6 +32,7 @@ builder.Services.AddAuthentication(options =>
     ("CustomAuthentication", options => { });
 
 builder.Services.AddTransient<IAuthorizationHandler, DistSysAcwServer.Auth.CustomAuthorizationHandlerMiddleware>();
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 

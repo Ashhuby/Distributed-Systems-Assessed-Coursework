@@ -7,34 +7,56 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DistSysAcwServer.Controllers
 {
+    /// <summary>
+    /// Handles simple talkback requests that do not require authentication.
+    /// Provides Hello and Sort endpoints as per the specification.
+    /// </summary>
     public class TalkbackController : BaseController
     {
-
+        /// <summary>
+        /// Constructs a TalkBack controller with dependency-injected services.
+        /// </summary>
+        /// <param name="dbcontext">The Entity Framework database context.</param>
+        /// <param name="error">The shared error object for the request pipeline.</param>
+        public TalkbackController(Models.UserContext dbcontext, SharedError error)
+            : base(dbcontext, error) { }
 
         /// <summary>
-        /// Constructs a TalkBack controller, taking the UserContext through dependency injection
+        /// GET api/talkback/hello
+        /// Returns "Hello World" with a 200 OK status code.
         /// </summary>
-        /// <param name="context">DbContext set as a service in Startup.cs and dependency injected</param>
-        public TalkbackController(Models.UserContext dbcontext, SharedError error) : base(dbcontext, error) { }
-
-
-        #region TASK1
-        //    TODO: add api/talkback/hello response
         [HttpGet]
         public IActionResult Hello()
         {
-            Error.StatusCode = 501;
-            Error.Message = "Not Implemented";
-            return new EmptyResult();
+            return Ok("Hello World");
         }
-        #endregion
 
-        #region TASK1
-        //    TODO:
-        //       add a parameter to get integers from the URI query
-        //       sort the integers into ascending order
-        //       send the integers back as the api/talkback/sort response
-        //       conform to the error handling requirements in the spec
-        #endregion
+        /// <summary>
+        /// GET api/talkback/sort?integers=8&amp;integers=2&amp;integers=5
+        /// Accepts an array of integers from the query string, sorts them
+        /// in ascending order, and returns the sorted array as JSON.
+        /// Returns an empty array [] if no integers are provided.
+        /// Returns 400 Bad Request if invalid (non-integer) values are submitted.
+        /// </summary>
+        /// <param name="integers">An array of integers from the query string.</param>
+        [HttpGet]
+        public IActionResult Sort([FromQuery] int[] integers)
+        {
+            if (integers == null || integers.Length == 0)
+            {
+                return Ok(Array.Empty<int>());
+            }
+
+            int[] sorted = integers.OrderBy(i => i).ToArray();
+            return Ok(sorted);
+        }
+
+        [HttpGet]
+        [Authorize(Roles = "Admin,User")]
+        public IActionResult Debug()
+        {
+            var claims = User.Claims.Select(c => $"{c.Type}: {c.Value}").ToList();
+            return Ok(new { Claims = claims, IsAuth = User.Identity?.IsAuthenticated });
+        }
     }
 }

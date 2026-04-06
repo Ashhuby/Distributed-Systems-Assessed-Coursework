@@ -1,0 +1,15 @@
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\bin\Debug\net8.0\DistSysAcwClient.exe
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\bin\Debug\net8.0\DistSysAcwClient.deps.json
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\bin\Debug\net8.0\DistSysAcwClient.runtimeconfig.json
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\bin\Debug\net8.0\DistSysAcwClient.dll
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\bin\Debug\net8.0\DistSysAcwClient.pdb
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.AssemblyInfoInputs.cache
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.AssemblyInfo.cs
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.csproj.CoreCompileInputs.cache
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.sourcelink.json
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.dll
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\refint\DistSysAcwClient.dll
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.pdb
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\DistSysAcwClient.genruntimeconfig.cache
+C:\MyRepos\Distributed-Systems-Assessed-Coursework\DistSysACWSkeletonSolution\DistSysAcwClient\obj\Debug\net8.0\ref\DistSysAcwClient.dll

@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyRepos\\Distributed-Systems-Assessed-Coursework\\DistSysACWSkeletonSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__DistSysAcw/DistSysAcw/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{276D5CFF-019E-4FE1-A6CE-BD6135C9259F}|DistSysAcwClient\\DistSysAcwClient.csproj|c:\\myrepos\\distributed-systems-assessed-coursework\\distsysacwskeletonsolution\\distsysacwclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{276D5CFF-019E-4FE1-A6CE-BD6135C9259F}|DistSysAcwClient\\DistSysAcwClient.csproj|solutionrelative:distsysacwclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\myrepos\\distributed-systems-assessed-coursework\\distsysacwskeletonsolution\\distsysacwserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\myrepos\\distributed-systems-assessed-coursework\\distsysacwskeletonsolution\\distsysacwserver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\myrepos\\distributed-systems-assessed-coursework\\distsysacwskeletonsolution\\distsysacwserver\\services\\rsakeyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\services\\rsakeyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\myrepos\\distributed-systems-assessed-coursework\\distsysacwskeletonsolution\\distsysacwserver\\controllers\\protectedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\controllers\\protectedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\myrepos\\distributed-systems-assessed-coursework\\distsysacwskeletonsolution\\distsysacwserver\\models\\mashifyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\models\\mashifyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 296,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyRepos\\Distributed-Systems-Assessed-Coursework\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Program.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\Program.cs",
+              "ToolTip": "C:\\MyRepos\\Distributed-Systems-Assessed-Coursework\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Program.cs",
+              "RelativeToolTip": "DistSysAcwServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T15:07:43.383Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__DistSysAcw/DistSysAcw/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-06T15:55:49.726Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{905da7d1-18fd-4a46-8d0f-a5ff58ada9de}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a8cdb16a-3fad-4ee7-961a-cec0ac48b98c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{402f1c55-d279-4b53-b3b8-77da8c92fa77}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyRepos\\Distributed-Systems-Assessed-Coursework\\DistSysACWSkeletonSolution\\DistSysAcwClient\\Program.cs",
+              "RelativeDocumentMoniker": "DistSysAcwClient\\Program.cs",
+              "ToolTip": "C:\\MyRepos\\Distributed-Systems-Assessed-Coursework\\DistSysACWSkeletonSolution\\DistSysAcwClient\\Program.cs",
+              "RelativeToolTip": "DistSysAcwClient\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T16:50:19.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\MyRepos\\Distributed-Systems-Assessed-Coursework\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\MyRepos\\Distributed-Systems-Assessed-Coursework\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Controllers\\UserController.cs",
+              "RelativeToolTip": "DistSysAcwServer\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAkwJoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T16:44:21.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProtectedController.cs",
+              "DocumentMoniker": "C:\\MyRepos\\Distributed-Systems-Assessed-Coursework\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Controllers\\ProtectedController.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\Controllers\\ProtectedController.cs",
+              "ToolTip": "C:\\MyRepos\\Distributed-Systems-Assessed-Coursework\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Controllers\\ProtectedController.cs",
+              "RelativeToolTip": "DistSysAcwServer\\Controllers\\ProtectedController.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAmwAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T16:38:43.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MashifyRequest.cs",
+              "DocumentMoniker": "C:\\MyRepos\\Distributed-Systems-Assessed-Coursework\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Models\\MashifyRequest.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\Models\\MashifyRequest.cs",
+              "ToolTip": "C:\\MyRepos\\Distributed-Systems-Assessed-Coursework\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Models\\MashifyRequest.cs",
+              "RelativeToolTip": "DistSysAcwServer\\Models\\MashifyRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T16:38:22.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RsaKeyService.cs",
+              "DocumentMoniker": "C:\\MyRepos\\Distributed-Systems-Assessed-Coursework\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Services\\RsaKeyService.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\Services\\RsaKeyService.cs",
+              "ToolTip": "C:\\MyRepos\\Distributed-Systems-Assessed-Coursework\\DistSysACWSkeletonSolution\\DistSysAcwServer\\Services\\RsaKeyService.cs",
+              "RelativeToolTip": "DistSysAcwServer\\Services\\RsaKeyService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T16:37:54.543Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
