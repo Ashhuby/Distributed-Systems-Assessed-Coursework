@@ -17,6 +17,10 @@ builder.Services.AddControllers(options =>
 {
     options.AllowEmptyInputInBodyModelBinding = true;
     options.Filters.Add<ActionErrorHandlingFilter>();
+}).AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.Encoder =
+        System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping;
 });
 builder.Services.AddDbContext<DistSysAcwServer.Models.UserContext>();
 builder.Services.AddHttpContextAccessor();

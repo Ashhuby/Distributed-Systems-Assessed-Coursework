@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -172,7 +172,7 @@ namespace DistSysAcwClient
         /// </summary>
         private static async Task TalkBackSort(string[] parts)
         {
-            if (parts.Length < 3)
+            if(parts.Length < 3)
             {
                 Console.WriteLine("[]");
                 return;
@@ -278,7 +278,7 @@ namespace DistSysAcwClient
         }
 
         /// <summary>
-        /// User Set [name] [apikey] — stores the username and API Key locally.
+        /// User Set [name] [apikey] � stores the username and API Key locally.
         /// No network request is made.
         /// </summary>
         private static void UserSet(string name, string apiKey)
@@ -306,7 +306,10 @@ namespace DistSysAcwClient
 
             HttpResponseMessage response = await Client.SendAsync(request);
             string responseString = await response.Content.ReadAsStringAsync();
-            Console.WriteLine(responseString);
+            if (bool.TryParse(responseString, out bool deleted))
+                Console.WriteLine(deleted ? "True" : "False");
+            else
+                Console.WriteLine(responseString);
         }
 
         /// <summary>
@@ -467,7 +470,9 @@ namespace DistSysAcwClient
                 string responseString = await response.Content.ReadAsStringAsync();
 
                 // Strip surrounding quotes if the response is JSON-serialized
-                string publicKey = responseString.Trim('"');
+                string? publicKey = null;
+                try { publicKey = JsonSerializer.Deserialize<string>(responseString); }
+                catch { publicKey = responseString.Trim('"'); }
 
                 if (!string.IsNullOrEmpty(publicKey) && publicKey.Contains("<RSAKeyValue>"))
                 {
@@ -717,3 +722,5 @@ namespace DistSysAcwClient
         #endregion
     }
 }
+
+
