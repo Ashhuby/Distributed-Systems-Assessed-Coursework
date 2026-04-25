@@ -172,26 +172,25 @@ namespace DistSysAcwClient
         /// </summary>
         private static async Task TalkBackSort(string[] parts)
         {
-            if(parts.Length < 3)
+            string queryString = string.Empty;
+
+            if (parts.Length >= 3)
             {
-                Console.WriteLine("[]");
-                return;
+                string arrayPart = string.Join(" ", parts.Skip(2));
+                arrayPart = arrayPart.Trim('[', ']');
+
+                if (!string.IsNullOrWhiteSpace(arrayPart))
+                {
+                    string[] values = arrayPart.Split(',', StringSplitOptions.RemoveEmptyEntries);
+                    queryString = string.Join("&", values.Select(v => "integers=" + v.Trim()));
+                }
             }
 
-            // Join everything after "TalkBack Sort" and strip brackets
-            string arrayPart = string.Join(" ", parts.Skip(2));
-            arrayPart = arrayPart.Trim('[', ']');
+            string url = string.IsNullOrEmpty(queryString)
+                ? "api/talkback/sort"
+                : "api/talkback/sort?" + queryString;
 
-            if (string.IsNullOrWhiteSpace(arrayPart))
-            {
-                Console.WriteLine("[]");
-                return;
-            }
-
-            string[] values = arrayPart.Split(',', StringSplitOptions.RemoveEmptyEntries);
-            string queryString = string.Join("&", values.Select(v => "integers=" + v.Trim()));
-
-            string response = await Client.GetStringAsync("api/talkback/sort?" + queryString);
+            string response = await Client.GetStringAsync(url);
             Console.WriteLine(response);
         }
 
